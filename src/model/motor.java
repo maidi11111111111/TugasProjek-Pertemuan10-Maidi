@@ -17,7 +17,7 @@ public class motor extends kendaraan{
         System.out.println("Melihat asal pembuatan Motor");
     }
 
-   //getter and setter
+    //getter and setter
 
     public String getKecepatan() {
         return kecepatan;
@@ -42,7 +42,7 @@ public class motor extends kendaraan{
     public void setThnPembuatan(Date thnPembuatan) {
         this.thnPembuatan = thnPembuatan;
     }
-//Override
+    //Override
     @Override
     public void merk() {
         super.merk();
@@ -51,5 +51,14 @@ public class motor extends kendaraan{
     @Override
     public void warna() {
         super.warna();
+    }
+
+
+    //cetak
+    public void printmotor(){
+        System.out.println("kecepatan"+  this.getKecepatan());
+        System.out.println("asal pembuatan"+  this.getAsalPembuatan());
+        System.out.println("tahun pembuatan"+  this.getThnPembuatan());
+
     }
 }
