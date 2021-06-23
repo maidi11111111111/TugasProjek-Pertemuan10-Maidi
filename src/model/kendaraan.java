@@ -28,7 +28,7 @@ public class kendaraan {
         System.out.println("Harga per unit kendaraan");
     }
 
-   //constructor
+    //constructor
     public kendaraan(){
     }
 
